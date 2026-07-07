@@ -68,96 +68,98 @@ This project showcases practical skills commonly used by Help Desk Technicians, 
 
 # Screenshots
 
-## 01-live-packet-capture.png
+### 01. Live Packet Capture
 
-Displayed live network traffic captured from the active network interface, including TCP, UDP, and encrypted traffic.
+Captured live network traffic from the active Ethernet interface showing real-time network communications.
 
-![01-live-packet-capture.png](screenshots/01-live-packet-capture.png)
-
----
-
-## 02-dns-traffic.png
-
-Captured DNS queries and responses demonstrating domain name resolution, including A, AAAA, CNAME, and HTTPS DNS records.
-
-![02-dns-traffic.png](screenshots/02-dns-traffic.png)
+![01-live-packet-capture](screenshots/01-live-packet-capture.png)
 
 ---
 
-## 03-tls-traffic.png
+### 02. DNS Traffic
 
-Captured encrypted TLS 1.2 traffic over HTTPS (TCP port 443), demonstrating secure client-server communication.
+Filtered DNS traffic displaying domain name queries and responses.
 
-![03-tls-traffic.png](screenshots/03-tls-traffic.png)
-
----
-
-## 04-icmp-ping.png
-
-Captured ICMPv6 network traffic, including Neighbor Solicitation, Neighbor Advertisement, Router Advertisement, and Multicast Listener messages.
-
-![04-icmp-ping.png](screenshots/04-icmp-ping.png)
+![02-dns-traffic](screenshots/02-dns-traffic.png)
 
 ---
 
-## 05-tcp-three-way-handshake.png
+### 03. TLS Traffic
 
-Captured TCP SYN and SYN/ACK packets demonstrating the TCP three-way handshake used to establish reliable network connections.
+Filtered encrypted TLS 1.2 traffic demonstrating secure HTTPS communications.
 
-![05-tcp-three-way-handshake.png](screenshots/05-tcp-three-way-handshake.png)
-
----
-
-## 06-packet-details.png
-
-Expanded packet details displaying Frame, Ethernet II, IPv4/IPv6, and TCP headers for detailed packet analysis.
-
-![06-packet-details.png](screenshots/06-packet-details.png)
+![03-tls-traffic](screenshots/03-tls-traffic.png)
 
 ---
 
-## 07-protocol-hierarchy.png
+### 04. ICMP Ping
 
-Displayed protocol hierarchy statistics showing captured network protocols, packet counts, and protocol distribution.
+Filtered ICMPv6 traffic displaying Neighbor Discovery, Router Advertisement, and Multicast Listener messages.
 
-![07-protocol-hierarchy.png](screenshots/07-protocol-hierarchy.png)
+> **Note:** Rename your screenshot to **04-icmp-ping.png**.
 
----
-
-## 08-conversations.png
-
-Displayed TCP conversation statistics showing communication sessions between local and remote hosts, including ports, packets, bytes, and connection duration.
-
-![08-conversations.png](screenshots/08-conversations.png)
+![04-icmp-ping](screenshots/04-icmp-ping.png)
 
 ---
 
-## 09-endpoints.png
+### 05. TCP Three-Way Handshake
 
-Displayed endpoint statistics showing devices involved in the packet capture, including packet counts and transmitted/received bytes.
+Filtered TCP SYN packets demonstrating the TCP connection establishment process.
 
-![09-endpoints.png](screenshots/09-endpoints.png)
-
----
-
-## 10-capture-file-properties.png
-
-Displayed capture file information, interface details, packet statistics, capture duration, and file metadata.
-
-![10-capture-file-properties.png](screenshots/10-capture-file-properties.png)
+![05-tcp-three-way-handshake](screenshots/05-tcp-three-way-handshake.png)
 
 ---
 
-## 11-display-filters.png
+### 06. Packet Details
 
-Demonstrated Wireshark display filters used to isolate specific protocols and packet types for targeted analysis.
+Expanded packet information displaying Ethernet, IP, TCP, and protocol header details.
 
-![11-display-filters.png](screenshots/11-display-filters.png)
+![06-packet-details](screenshots/06-packet-details.png)
 
 ---
 
-## 12-packet-bytes.png
+### 07. Protocol Hierarchy
 
-Displayed the hexadecimal and ASCII representation of a captured packet for low-level packet inspection and analysis.
+Protocol Hierarchy Statistics showing protocol distribution throughout the packet capture.
 
-![12-packet-bytes.png](screenshots/12-packet-bytes.png)
+![07-protocol-hierarchy](screenshots/07-protocol-hierarchy.png)
+
+---
+
+### 08. Conversations
+
+Conversation statistics showing communication sessions between hosts.
+
+![08-conversations](screenshots/08-conversations.png)
+
+---
+
+### 09. Endpoints
+
+Endpoint statistics displaying network devices involved in the capture.
+
+![09-endpoints](screenshots/09-endpoints.png)
+
+---
+
+### 10. Capture File Properties
+
+Capture properties displaying capture duration, interface information, packet statistics, and metadata.
+
+![10-capture-file-properties](screenshots/10-capture-file-properties.png)
+
+---
+
+### 11. Display Filters
+
+Demonstrated Wireshark display filters used to isolate and analyze specific network protocols.
+
+![11-display-filters](screenshots/11-display-filters.png)
+
+---
+
+### 12. Packet Bytes
+
+Hexadecimal and ASCII packet data used for low-level packet inspection and forensic analysis.
+
+![12-packet-bytes](screenshots/12-packet-bytes.png)

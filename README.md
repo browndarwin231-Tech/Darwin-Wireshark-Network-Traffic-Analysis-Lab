@@ -72,7 +72,7 @@ This project showcases practical skills commonly used by Help Desk Technicians, 
 
 Captured live network traffic from the active Ethernet interface showing real-time network communications.
 
-![01-live-packet-capture](screenshots/01-live-packet-capture.png)
+![01-live-packet-capture](Screenshots/01-live-packet-capture.png)
 
 ---
 
